@@ -1,0 +1,350 @@
+body{
+    background-color: red;
+}
+
+.d-circle{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    background-color: yellow;
+    height: 400px;
+    width: 350px;
+    border-radius: 200px;
+}
+
+.d-cut{
+    position: absolute;
+    left: 80px;
+    top: 200px;
+    background-color: red;
+    height: 400px;
+    width: 100px;
+}
+
+.d-neg{
+    position: absolute;
+    left: 240px;
+    top: 320px;
+    background-color: red;
+    height: 170px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.d-line{
+    position: absolute;
+    left: 164px;
+    top: 215px;
+    background-color: yellow;
+    height: 370px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.letter{
+    position: absolute;
+    left: 475px;
+    top: 200px;
+    background-color: yellow;
+    height: 400px;
+    width: 100px;
+    border-radius: 200px;
+}
+
+.n-box{
+    position: absolute;
+    left: 630px;
+    top: 210px;
+    background-color: yellow;
+    height: 370px;
+    width: 250px;
+
+}
+
+.n1{
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 250px solid red;
+    position: absolute;
+    left: 685px;
+    top: 370px;
+}
+
+.n2{
+    width: 0;
+    height: 0;
+    border-left: 00px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 250px solid red;
+    position: absolute;
+    left: 675px;
+    top: 203px;
+    transform: rotate(180deg);
+}
+
+.n3{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    background-color: yellow;
+    height: 400px;
+    width: 100px;
+    border-radius: 200px;
+}
+
+.n4{
+    position: absolute;
+    left: 825px;
+    top: 200px;
+    background-color: yellow;
+    height: 400px;
+    width: 100px;
+    border-radius: 200px;
+}
+
+.e1{
+    position: absolute;
+    left: 960px;
+    top: 200px;
+    background-color: yellow;
+    height: 80px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.e2{
+    position: absolute;
+    left: 960px;
+    top: 350px;
+    background-color: yellow;
+    height: 80px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.e3{
+    position: absolute;
+    left: 960px;
+    top: 520px;
+    background-color: yellow;
+    height: 80px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.e-box{
+    position: absolute;
+    left: 950px;
+    top: 200px;
+    background-color: yellow;
+    height: 400px;
+    width: 100px;
+    border-radius: 200px;
+}
+
+.line{
+    position: absolute;
+    left: 1225px;
+    top: 200px;
+    background-color: yellow;
+    height: 270px;
+    width: 100px;
+    border-radius: 200px;
+}
+
+.dot{
+    position: absolute;
+    left: 1225px;
+    top: 510px;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+}
+
+.animation {
+    animation-name: scale;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes scale {
+    from {
+        height: 400px;
+    }
+
+    to {
+        height: 2000px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: black;
+    }
+
+    .d-circle{
+        position: absolute;
+        left: 50px;
+        top: 200px;
+        background-color: yellow;
+        height: 400px;
+        width: 350px;
+        border-radius: 200px;
+    }
+
+    .d-cut{
+        position: absolute;
+        left: 30px;
+        top: 200px;
+        background-color: black;
+        height: 400px;
+        width: 100px;
+    }
+
+    .d-neg{
+        position: absolute;
+        left: 180px;
+        top: 320px;
+        background-color: black;
+        height: 170px;
+        width: 100px;
+        border-radius: 100px;
+    }
+
+    .d-line{
+        position: absolute;
+        left: 114px;
+        top: 215px;
+        background-color: yellow;
+        height: 370px;
+        width: 100px;
+        border-radius: 100px;
+    }
+
+    .letter{
+        position: absolute;
+        left: 114px;
+        top: 700px;
+        background-color: yellow;
+        height: 400px;
+        width: 100px;
+        border-radius: 200px;
+    }
+
+    .n-box{
+        position: absolute;
+        left: 144px;
+        top: 1210px;
+        background-color: yellow;
+        height: 370px;
+        width: 250px;
+
+    }
+
+    .n1{
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 180px solid transparent;
+        border-bottom: 250px solid black;
+        position: absolute;
+        left: 200px;
+        top: 1370px;
+    }
+
+    .n2{
+        width: 0;
+        height: 0;
+        border-left: 00px solid transparent;
+        border-right: 180px solid transparent;
+        border-bottom: 250px solid black;
+        position: absolute;
+        left: 190px;
+        top: 1203px;
+        transform: rotate(180deg);
+    }
+
+    .n3{
+        position: absolute;
+        left: 114px;
+        top: 1200px;
+        background-color: yellow;
+        height: 400px;
+        width: 100px;
+        border-radius: 200px;
+    }
+
+    .n4{
+        position: absolute;
+        left: 339px;
+        top: 1200px;
+        background-color: yellow;
+        height: 400px;
+        width: 100px;
+        border-radius: 200px;
+    }
+
+    .e1{
+        position: absolute;
+        left: 124px;
+        top: 1700px;
+        background-color: yellow;
+        height: 80px;
+        width: 200px;
+        border-radius: 200px;
+    }
+
+    .e2{
+        position: absolute;
+        left: 124px;
+        top: 1850px;
+        background-color: yellow;
+        height: 80px;
+        width: 200px;
+        border-radius: 200px;
+    }
+
+    .e3{
+        position: absolute;
+        left: 124px;
+        top: 2020px;
+        background-color: yellow;
+        height: 80px;
+        width: 200px;
+        border-radius: 200px;
+    }
+
+    .e-box{
+        position: absolute;
+        left: 114px;
+        top: 1700px;
+        background-color: yellow;
+        height: 400px;
+        width: 100px;
+        border-radius: 200px;
+    }
+
+    .line{
+        position: absolute;
+        left: 114px;
+        top: 2200px;
+        background-color: yellow;
+        height: 270px;
+        width: 100px;
+        border-radius: 200px;
+    }
+
+    .dot{
+        position: absolute;
+        left: 114px;
+        top: 2510px;
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        border-radius: 200px;
+    }
+}
